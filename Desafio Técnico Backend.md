@@ -263,7 +263,7 @@ Não é necessário filtros ou paginação.
 
 ### **5. Carga Inicial de Dados**
 
-- Nem usuários nem categorias poderão ser gerenciados via API.
+- Nem usuários, nem categorias poderão ser gerenciados via API.
 
 - `Usuários:` Serão criados diretamente na base de dados durante a inicialização. Não haverá endpoints para criar, atualizar ou excluir usuários.
 - `Categorias:` Serão inseridas na inicialização e não poderão ser criadas, atualizadas ou excluídas via API.
@@ -296,7 +296,7 @@ Não é necessário filtros ou paginação.
 ---
 
 ### **Entrega da solução**
- - O projeto deve ser entregue através de um repositório no **GitHub**, garantindo versionamento adequado e acesso facilitado ao código. O repositório deve conter um **README detalhado**, descrevendo a aplicação, seus requisitos, tecnologias utilizadas e instruções claras sobre como configurá-la e executá-la. O README deve incluir etapas para **clonar o repositório, configurar dependências, executar a aplicação e qualquer outra informação relevante** para a utilização do sistema.
+ - O projeto deve ser entregue via um repositório no **GitHub**, garantindo versionamento adequado e acesso facilitado ao código. O repositório deve conter um **README detalhado**, descrevendo a aplicação, seus requisitos, tecnologias utilizadas e instruções claras sobre como configurá-la e executá-la. O README deve incluir etapas para **clonar o repositório, configurar dependências, executar a aplicação e qualquer outra informação relevante** para a utilização do sistema.
 
 ### **Critérios de Avaliação**
 
