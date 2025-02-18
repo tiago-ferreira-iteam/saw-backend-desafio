@@ -328,7 +328,7 @@ Não é necessário filtros ou paginação.
 ---
 
 ### **Entrega da solução**
- - O projeto deve ser entregue através de um repositório no **GitHub**, garantindo versionamento adequado e acesso facilitado ao código. O repositório deve conter um **README detalhado**, descrevendo a aplicação, seus requisitos, tecnologias utilizadas e instruções claras sobre como configurá-la e executá-la. O README deve incluir etapas para **clonar o repositório, configurar dependências, executar a aplicação via Docker e qualquer outra informação relevante** para a utilização do sistema.
+ - O projeto deve ser entregue através de um repositório no **GitHub**, garantindo versionamento adequado e acesso facilitado ao código. O repositório deve conter um **README detalhado**, descrevendo a aplicação, seus requisitos, tecnologias utilizadas e instruções claras sobre como configurá-la e executá-la. O README deve incluir etapas para **clonar o repositório, configurar dependências, executar a aplicação e qualquer outra informação relevante** para a utilização do sistema.
 
 ### **Critérios de Avaliação**
 
