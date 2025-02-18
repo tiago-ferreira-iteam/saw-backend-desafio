@@ -43,18 +43,7 @@ O objetivo deste teste é implementar uma API RESTful para gerenciar produtos. A
 | `createdAt`   | `OffsetDateTime`| Não         | Preenchida automaticamente no momento do cadastro.                                           | Data e hora da criação da usuário.|
 | `updatedAt`   | `OffsetDateTime`| Não         | Preenchida automaticamente sempre que o usuário for atualizado.                              | Data e hora da última modificação.|
 
-
-**1.4 Cada Usuário deve ter os seguintes campos:**
-
-| Campo         | Tipo            | Obrigatório | Validação                                                                                     | Descrição                          |
-|---------------|-----------------|-------------|-----------------------------------------------------------------------------------------------|------------------------------------|
-| `id`          | `String(UUID)`  | Não         | Gerado automaticamente pelo backend.                                                          | Identificador único da categoria.   |
-| `name`        | `String`        | Sim         | Tamanho mínimo: 3 caracteres<br>Tamanho máximo: 50 caracteres.                               | Nome da categoria.
-| `createdAt`   | `OffsetDateTime`| Não         | Preenchida automaticamente no momento do cadastro.                                            | Data e hora da criação da categoria.|
-| `updatedAt`   | `OffsetDateTime`| Não         | Preenchida automaticamente sempre que o categoria for atualizado.                              | Data e hora da última modificação.|
-
-
-**1.5 Falhas de validação é composto pelos seguintes campos:**
+**1.4 Falhas de validação é composto pelos seguintes campos:**
 
 | Campo       | Tipo           | Descrição                                                                                   |
 |-------------|----------------|---------------------------------------------------------------------------------------------|
@@ -63,7 +52,7 @@ O objetivo deste teste é implementar uma API RESTful para gerenciar produtos. A
 | `detail`    | `String`       | Descrição geral do problema. Ex.: "Um ou mais campos estão inválidos".                      |
 | `errors`    | `Array<Error>`| Lista de objetos contendo detalhes sobre cada campo inválido.                              |
 
-**1.6 Cada objeto dentro do array `errors` representa um campo específico que falhou na validação. A estrutura é composta pelos seguintes campos:**
+**1.5 Cada objeto dentro do array `errors` representa um campo específico que falhou na validação. A estrutura é composta pelos seguintes campos:**
 
 | Campo       | Tipo     | Descrição                                                                                   |
 |-------------|----------|---------------------------------------------------------------------------------------------|
