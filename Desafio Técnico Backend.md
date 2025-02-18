@@ -293,27 +293,6 @@ Não é necessário filtros ou paginação.
 ### **8. Containerização**
 - Recomenda-se o uso de Docker Compose para facilitar a orquestração dos serviços, como banco de dados e outros componentes necessários para o funcionamento da aplicação.
 
-## **7. Publicação de Eventos com Kafka ou similar**
-
-- Toda ação realizada na aplicação deve ser registrada e publicada em um tópico do **Kafka**. Cada mensagem deve conter informações relevantes sobre a operação executada, permitindo rastreabilidade e possíveis integrações com outros serviços.
-- A publicação e consumo das mensagens pode ser na mesma aplicação.
-- Ao consumir a mensagem deve ser salva em uma coleção na base de dados a seguinte estrutura.
-
-### **Formato da Mensagem Publicada:**
-
-```json
-{
-  "user": "admin123",
-  "action": "CRIAR_PRODUTO",
-  "id": "produtoId",
-  "timestamp": "2025-02-13T14:30:00Z"
-}
-```
-
-### **Ações que Devem Publicar Mensagens:**
-
-- **Produtos**: Criação, atualização e exclusão.
-
 ---
 
 ### **Entrega da solução**
